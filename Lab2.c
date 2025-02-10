@@ -28,7 +28,7 @@ int main() {
 
 
 
-
+    //For the child process
     for(int i=0; i<numberOfChildren; i++) {
         pid = fork();
         if(pid <0) {
